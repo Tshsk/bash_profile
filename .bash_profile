@@ -21,6 +21,9 @@
 # Create hard link
   alias hln='sudo gln -d'
 
+# curl to wget
+  alias wget='curl -O'
+
 # Show Hidden Folders
   alias hfs1='cd /Applications/Utilities'
   alias hfs2='defaults write com.apple.finder AppleShowAllFiles TRUE'
